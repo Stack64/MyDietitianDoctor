@@ -1,0 +1,51 @@
+.loader {
+    position: fixed;
+    inset: 0;
+    background: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .loader-content {
+    text-align: center;
+  }
+  
+  .loader-logo {
+    font-size: 5rem;
+    margin-bottom: 24px;
+  }
+  
+  .loader-content h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-text);
+    margin-bottom: 32px;
+  }
+  
+  .loader-content h2 span {
+    color: var(--color-primary);
+  }
+  
+  .loader-bar {
+    width: 200px;
+    height: 4px;
+    background: var(--color-bg-dark);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+  
+  .loader-progress {
+    height: 100%;
+    background: var(--gradient-primary);
+    border-radius: 2px;
+  }
+  
+  .loader-content p {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+  }
+  
+  

@@ -1,35 +1,87 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState, useEffect } from 'react'
+import { Toaster } from 'react-hot-toast'
+import { AnimatePresence } from 'framer-motion'
+import Loader from './components/Loader/Loader'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Services from './components/Services/Services'
+import About from './components/About/About'
+import BMICalculator from './components/BMICalculator/BMICalculator'
+import Benefits from './components/Benefits/Benefits'
+import Pricing from './components/Pricing/Pricing'
+import Appointment from './components/Appointments/Appointments'
+import Testimonials from './components/Testimonials/Testimonials'
+import FAQ from './components/FAQ/FAQ'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import FloatingButtons from './components/FloatingButtons/FloatingButtons'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 2000)
+
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <AnimatePresence mode="wait">
+        {isLoading && <Loader />}
+      </AnimatePresence>
+
+      <Toaster 
+        position="top-center"
+        toastOptions={{
+          duration: 4000,
+          style: {
+            background: '#2D5A27',
+            color: '#fff',
+            padding: '16px 24px',
+            borderRadius: '12px',
+            fontSize: '1rem',
+          },
+          success: {
+            iconTheme: {
+              primary: '#7CB342',
+              secondary: '#fff',
+            },
+          },
+          error: {
+            style: {
+              background: '#E74C3C',
+            },
+          },
+        }}
+      />
+      
+      {!isLoading && (
+        <>
+          <Navbar />
+          <main>
+            <Hero />
+            <Services />
+            <About />
+            <BMICalculator />
+            <Benefits />
+            <Pricing />
+            <Appointment />
+            <Testimonials />
+            <FAQ />
+            <Contact />
+          </main>
+          <Footer />
+          <FloatingButtons />
+        </>
+      )}
     </>
   )
 }
 
 export default App
+

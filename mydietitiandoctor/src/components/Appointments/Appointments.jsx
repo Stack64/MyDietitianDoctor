@@ -72,6 +72,7 @@ const Appointment = () => {
   }
 
   const sendEmails = async () => {
+    const currentYear = new Date().getFullYear().toString()
     // Send email to user (confirmation)
     const userEmailParams = {
       to_name: formData.name,
@@ -81,7 +82,8 @@ const Appointment = () => {
       consultation_type: consultationTypes.find(c => c.id === formData.consultationType)?.label,
       message: formData.message || 'No additional message',
       phone: formData.phone,
-      reply_to: CONTACT_INFO.email
+      reply_to: CONTACT_INFO.email,
+      current_year: currentYear
     }
 
     // Send email to admin (notification)

@@ -9,15 +9,15 @@ export const EMAILJS_CONFIG = {
     PUBLIC_KEY: '0ldAIZXa1TkNduqGG', // Your EmailJS public key
     
     // Admin email to receive booking notifications
-    ADMIN_EMAIL: 'dietationrubyclinic.com',
+    ADMIN_EMAIL: 'dietitianrubyclinic@gmail.com',
   }
   
   // Contact Information - Update these with real values
   export const CONTACT_INFO = {
     phone: '+91 78387 78877',
     whatsapp: '+917838778877', // Without spaces or dashes for WhatsApp link
-    email: 'dietationrubyclinic.com',
-    address: '123 Health Street, Wellness City, State 123456',
+    email: 'dietitianrubyclinic@gmail.com',
+    address: '36 Health Street,Delhi',
     workingHours: {
       weekdays: '9:00 AM - 7:00 PM',
       saturday: '10:00 AM - 4:00 PM',

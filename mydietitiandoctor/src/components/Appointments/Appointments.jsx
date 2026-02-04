@@ -76,7 +76,7 @@ const Appointment = () => {
     // Send email to user (confirmation)
     const userEmailParams = {
       to_name: formData.name,
-      to_email: formData.email,
+      email: formData.email,
       appointment_date: formData.date,
       appointment_time: formData.time,
       consultation_type: consultationTypes.find(c => c.id === formData.consultationType)?.label,
@@ -88,7 +88,7 @@ const Appointment = () => {
 
     // Send email to admin (notification)
     const adminEmailParams = {
-      to_email: EMAILJS_CONFIG.ADMIN_EMAIL,
+      email: EMAILJS_CONFIG.ADMIN_EMAIL,
       client_name: formData.name,
       client_email: formData.email,
       client_phone: formData.phone,

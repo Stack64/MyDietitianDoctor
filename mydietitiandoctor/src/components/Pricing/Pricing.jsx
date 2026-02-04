@@ -6,7 +6,7 @@ const pricingPlans = [
   {
     name: 'Basic',
     subtitle: 'Single Consultation',
-    price: '999',
+    price: '99',
     period: 'per session',
     features: [
       '60-minute consultation',
@@ -21,7 +21,7 @@ const pricingPlans = [
   {
     name: 'Premium',
     subtitle: 'Most Popular',
-    price: '2,999',
+    price: '1,499',
     period: 'per month',
     features: [
       'Weekly consultations',
@@ -38,7 +38,7 @@ const pricingPlans = [
   {
     name: 'Transformation',
     subtitle: '3-Month Program',
-    price: '7,999',
+    price: '3,999',
     period: '3 months',
     features: [
       'Everything in Premium',

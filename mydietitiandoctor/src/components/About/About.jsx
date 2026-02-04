@@ -5,8 +5,8 @@ import './About.css'
 const credentials = [
   { icon: <FiAward />, text: 'Certified Clinical Dietitian' },
   { icon: <FiBook />, text: 'M.Sc in Nutrition & Dietetics' },
-  { icon: <FiUsers />, text: '10+ Years Experience' },
-  { icon: <FiHeart />, text: '500+ Success Stories' }
+  { icon: <FiUsers />, text: '3+ Years Experience' },
+  { icon: <FiHeart />, text: '200+ Success Stories' }
 ]
 
 const About = () => {
@@ -27,7 +27,7 @@ const About = () => {
                 <span className="doctor-emoji">👩‍⚕️</span>
               </div>
               <div className="experience-badge">
-                <strong>10+</strong>
+                <strong>3+</strong>
                 <span>Years of<br/>Experience</span>
               </div>
             </div>
@@ -39,10 +39,10 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
-              <span className="stat-icon">🏆</span>
+              <span className="stat-icon">❤️</span>
               <div>
-                <strong>Award Winning</strong>
-                <span>Best Dietitian 2023</span>
+                <strong>Client-First Care</strong>
+                <span>Real results, real people</span>
               </div>
             </motion.div>
             
@@ -56,7 +56,7 @@ const About = () => {
               <span className="stat-icon">⭐</span>
               <div>
                 <strong>4.9/5 Rating</strong>
-                <span>From 300+ Reviews</span>
+                <span>From 100+ Reviews</span>
               </div>
             </motion.div>
           </motion.div>

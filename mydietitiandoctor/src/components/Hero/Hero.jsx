@@ -110,7 +110,7 @@ const Hero = () => {
                 <span>Years Experience</span>
               </div>
               <div className="stat">
-                <strong>91%</strong>
+                <strong>98%</strong>
                 <span>Success Rate</span>
               </div>
             </div>

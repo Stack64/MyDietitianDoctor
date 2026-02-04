@@ -160,7 +160,7 @@ const Testimonials = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="stat-item">
-            <span className="stat-number">500+</span>
+            <span className="stat-number">150+</span>
             <span className="stat-label">Happy Clients</span>
           </div>
           <div className="stat-divider"></div>
@@ -175,7 +175,7 @@ const Testimonials = () => {
           </div>
           <div className="stat-divider"></div>
           <div className="stat-item">
-            <span className="stat-number">10+</span>
+            <span className="stat-number">3+</span>
             <span className="stat-label">Years Experience</span>
           </div>
         </motion.div>

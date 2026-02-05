@@ -6,7 +6,7 @@ import './Testimonials.css'
 const testimonials = [
   {
     id: 1,
-    name: 'Priya Sharma',
+    name: 'Zaqiya',
     role: 'Lost 15kg in 4 months',
     image: '👩',
     rating: 5,
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: 'Rahul Verma',
+    name: 'Raziya',
     role: 'Diabetes Management',
     image: '👨',
     rating: 5,
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'Ananya Patel',
+    name: 'Jyoti Sharma',
     role: 'PCOS Diet Success',
     image: '👩‍🦱',
     rating: 5,
@@ -33,7 +33,7 @@ const testimonials = [
   },
   {
     id: 4,
-    name: 'Vikram Singh',
+    name: 'Dinesh',
     role: 'Sports Performance',
     image: '🧔',
     rating: 5,
@@ -42,7 +42,7 @@ const testimonials = [
   },
   {
     id: 5,
-    name: 'Meera Iyer',
+    name: 'Pooja',
     role: 'Post-Pregnancy Weight Loss',
     image: '👩‍🍼',
     rating: 5,

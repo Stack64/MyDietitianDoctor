@@ -41,7 +41,7 @@ const Footer = () => {
               <a href="#home" className="footer-logo" onClick={(e) => { e.preventDefault(); scrollToTop(); }}>
                 <span className="logo-icon">🥗</span>
                 <span className="logo-text">
-                  MyDietation<span className="logo-highlight">Doctor</span>
+                  My<span className="logo-highlight">Dietation</span>
                 </span>
               </a>
               <p>
@@ -134,7 +134,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} MyDietationDoctor. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MyDietation. All rights reserved.</p>
           <div className="footer-bottom-links">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>

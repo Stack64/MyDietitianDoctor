@@ -41,7 +41,7 @@ const Navbar = () => {
         <a href="#home" className="navbar-logo" onClick={(e) => handleNavClick(e, '#home')}>
           <span className="logo-icon">🥗</span>
           <span className="logo-text">
-            MyDietation<span className="logo-highlight">Doctor</span>
+            My<span className="logo-highlight">Dietation</span>
           </span>
         </a>
 

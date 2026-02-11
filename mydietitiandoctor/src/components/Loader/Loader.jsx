@@ -30,7 +30,7 @@ const Loader = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          MyDietation<span>Doctor</span>
+          My<span>Dietation</span>
         </motion.h2>
         
         <div className="loader-bar">

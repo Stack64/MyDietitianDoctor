@@ -41,7 +41,7 @@ const Footer = () => {
               <a href="#home" className="footer-logo" onClick={(e) => { e.preventDefault(); scrollToTop(); }}>
                 <span className="logo-icon">🥗</span>
                 <span className="logo-text">
-                  My<span className="logo-highlight">Dietation</span>
+                  My<span className="logo-highlight">Dietitian</span>
                 </span>
               </a>
               <p>

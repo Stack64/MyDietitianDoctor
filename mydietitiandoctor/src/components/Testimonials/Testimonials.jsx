@@ -10,7 +10,7 @@ const testimonials = [
     role: 'Lost 15kg in 4 months',
     image: '👩',
     rating: 5,
-    text: 'MyDietation completely transformed my life! The personalized diet plan was easy to follow, and the continuous WhatsApp support kept me motivated. I never thought losing weight could be this sustainable and enjoyable.',
+    text: 'MyDietitian completely transformed my life! The personalized diet plan was easy to follow, and the continuous WhatsApp support kept me motivated. I never thought losing weight could be this sustainable and enjoyable.',
     highlight: 'Lost 15kg'
   },
   {

@@ -134,7 +134,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} MyDietation. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MyDietitian. All rights reserved.</p>
           <div className="footer-bottom-links">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>

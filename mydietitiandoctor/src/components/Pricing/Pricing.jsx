@@ -6,10 +6,10 @@ const pricingPlans = [
   {
     name: 'Basic',
     subtitle: 'Single Consultation',
-    price: '99',
+    price: '499',
     period: 'per session',
     features: [
-      '60-minute consultation',
+      '30-minute consultation',
       'Basic diet assessment',
       'General diet guidelines',
       'Email support (48 hrs)',
